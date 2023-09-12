@@ -1,6 +1,6 @@
 
 function inicio(){
-// let opcao = 0; 
+
 opcao = prompt(`Selecione o exercício que deseja executar: 1 a 6:
 
 1 - Calculo de numeros
@@ -11,7 +11,7 @@ opcao = prompt(`Selecione o exercício que deseja executar: 1 a 6:
 6 - Calculo de consumo combustível
 `
 );
-opcao = parseInt(opcao); 
+opcao = parseInt(opcao); // parcefloat / int -  o switch precisa neste caso para poder entender a opçao como int
 
 switch(opcao) {
     case 1:
